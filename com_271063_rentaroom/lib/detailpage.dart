@@ -72,8 +72,8 @@ class _DetailPageState extends State<DetailPage> {
                   child: Text(
                      widget.room.roomid.toString() + "\n" + 
                      widget.room.contact.toString() + "\n" +
-                     widget.room.price.toString() + "\n" +
-                     widget.room.deposit.toString() + "\n" +
+                     "RM " + widget.room.price.toString() + "\n" +
+                     "RM " + widget.room.deposit.toString() + "\n" +
                      widget.room.state.toString() + "\n" +
                      widget.room.area.toString() + "\n" +
                      date[0] + "\n" +
